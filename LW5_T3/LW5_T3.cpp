@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+#include <windows.h>
 
 using namespace std;
 
@@ -23,6 +24,7 @@ string Palindrom(string K, string a = "", int i = 1)
 int main()
 {
     setlocale(LC_ALL, "Russian");
+    SetConsoleCP(1251);
     string a[5];
     for (int i = 0; i < 5; i++)
     {
